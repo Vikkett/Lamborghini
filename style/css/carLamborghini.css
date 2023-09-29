@@ -1,0 +1,43 @@
+body {
+    background-color: ivory;
+}
+h1 {
+    font-size:xx-large;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+    background-color:dimgray;
+    color:azure
+}
+img{
+    width: 700px;
+    
+}
+
+@media only screen and (max-width: 1050px){
+
+    body {
+        display: flex;
+    }
+    div {
+        width: 60vh;
+        
+    }
+    div img {
+        width: 100%;
+        height: auto;
+    }
+    p {
+        width: 60vh;
+margin: 20px;
+
+    }
+}
+
+/*.container {
+    width: 100%;
+}
+.right-colum {
+    width: 30%;
+    float: right;
+}*/

@@ -1,0 +1,41 @@
+ body {
+    background-color: #324ab2;
+ }
+h1 {
+    font-size:xx-large;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 5px yellow;
+    background-color:dimgray;
+    color:azure
+    
+}
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+img {
+    width: 250px;
+    height: 250;
+    object-fit: cover;
+    border-radius: 50%;
+}
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
