@@ -8,4 +8,4 @@ jobs:
       PRENOM: "Viktoriia"
     steps: 
       - name: Salutation personnalisée
-      run: echo "Bonjour $PRENOM, bienvenue dans le module ICT324"
+        run: echo "Bonjour $PRENOM, bienvenue dans le module ICT324"
