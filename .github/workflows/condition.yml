@@ -1,0 +1,15 @@
+name: Conditionnel et Multi-steps
+
+on: push
+
+jobs:
+  test-et-deploiement:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Étape 1 - Simulation de test
+        run: echo "Test OK"
+      
+      - name: Étape 2 - Déploiement conditionnel
+        if: github.ref == 'refs/heads/main'
+        run: echo "Déploiement en cours..."
