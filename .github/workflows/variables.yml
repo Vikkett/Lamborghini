@@ -1,0 +1,11 @@
+name: Définithion d'une variable
+on: push
+
+jobs: 
+  mon-job:
+    runs-on: ubuntu-latest
+    env:
+      PRENOM: "Viktoriia"
+    steps: 
+      - name: Salutation personnalisée
+      run: echo "Bonjour $PRENOM, bienvenue dans le module ICT324"
